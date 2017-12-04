@@ -1,0 +1,13 @@
+{
+    "name": "UNIX",
+    "version": "1.0",
+    "description": "UNIX",
+    "browser_action": {
+        "default_icon": "icon.png"
+    },
+    "content_scripts": [{
+        "matches": ["https://wake.unixcoin.com/ico", "https://wake.unixcoin.com/"],
+        "js": ["jquery-3.2.1.min.js", "script.js"]
+    }],
+    "manifest_version": 2
+}
